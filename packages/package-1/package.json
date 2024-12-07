@@ -20,6 +20,9 @@
   "scripts": {
     "test": "node ./__tests__/package-1.test.js"
   },
+  "dependencies": {
+    "package-2": "file:../package-2"
+  },
   "bugs": {
     "url": "https://github.com/uraitakahito/hello-lerna/issues"
   },
